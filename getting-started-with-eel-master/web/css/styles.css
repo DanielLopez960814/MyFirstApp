@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Kulim+Park|Poppins:300&display=swap');
+
+
+/* Style index.html */
+
+#Psophia{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  margin-top: 10px;
+  color: orangered;
+}
+
+#Tool{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#letra{
+  display: flex;
+  flex-direction: row;
+}
+
+#texto{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  margin: 0px;
+}
+
+.HOMEIMAGE{
+
+  width: 150px;
+  height: 150px;
+  background: rgb(255, 255, 255);
+  margin: 450px 0 0px 600px;
+  -webkit-border-radius: 75px 75px 75px 75px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.slogan{
+  font-family: 'Cormorant Garamond', serif;
+  /* font-style: italic; */
+  color: black;
+  /* margin: 150px 20px 0px 90px; */
+  margin-top: 42px;
+  text-align: center;
+  font-size: 18px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  width: 1024px;
+  height: 620px;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("../img/fondo5.jpg");
+  background-color: rgba(0, 0, 0, .6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  
+
+  
+}
+
+
+.Menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  width: fit-content;
+  margin-left: 0px;
+}
+
+.logo{
+  
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; 
+}
+
+.options{
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.perfil{
+  margin-top: 10px;
+  width: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.options:hover{
+  color: rgb(207, 105, 9);
+  background-size: 100%;
+  cursor: pointer;
+}
+
+#opcion{
+  color: rgb(72, 216, 72);
+}
+
+.message{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 300px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.876);
+}
+
+
+
+.opciones{
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+/* Styles Video */
+
+#BackgroundVideo{
+  background-image: none;
+  background-color: rgba(218, 213, 213, 0.39);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.imagenVideo{
+  width: 50%;
+  /* margin: 105px 0 0 0; */
+  margin-left: 50px;
+}
+
+.sobrante{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: fit-content;
+}
+
+
+
+.Upload{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  height: fit-content;
+  width: 150px;
+}
+
+.Upload:hover{
+  color: rgb(207, 105, 9);
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.number{
+  margin: 0;
+  font-size: 100px;
+  color : rgba(185, 178, 178, 0.274);
+  height: fit-content;
+}
+
+.titulo{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color:rgb(90, 141, 90);
+}
+
+.sentence{
+  font-size: 13px;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+.opcionesVideo{
+  display: flex;
+  flex-direction: row;
+}
+
+.iconos{
+  width: 80px;
+}
+
+.uno{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.dos{
+  margin: 0 40px 0 40px;
+  margin-top: 50px;
+}
+
+.tres{
+  margin-top:150px;
+}
+
+#About{
+  background-image: none;
+  background-color: white;
+  
+}
+
+#About2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: max-content;
+}
+#sistemic{
+  margin-right: 100px;
+}
+
+#block1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+#block11{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#block12{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#calidris{
+  width: 200px;
+  margin-right: 150px;
+}
+
+#cornell{
+  width: 150px;
+}
+
+#invemar{
+  width: 230px;
+}
+
+#founding{
+  margin-left: 230px;
+  margin-top: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.575);
+  border-bottom: 1px solid #ff1900;
+}
